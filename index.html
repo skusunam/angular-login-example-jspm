@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title></title>
+</head>
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+
+	<script type="text/javascript" src="jspm_packages/system.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+
+	<script>
+		System.import('app/main');
+	</script>
+</body>
+</html>
